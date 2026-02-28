@@ -75,7 +75,7 @@ Here we use crontab which already is installed by default on a raspberry pi.
 For a slow process like solar panel logging it works perfectly fine. Poll interval is 10 minutes, but can adapted to ones own wishes. 
 
 ```
-# solar inveerter logger
+# solar inverter logger
 5,15,25,35,45,55 * * * *      /home/pi/log_solar.sh >> /var/log/sma_poll.log 2>&1
 ```
 
